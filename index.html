@@ -1,134 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SPAAKA - Innovative IT Solutions</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPAAKA - Under Maintenance</title>
   <style>
-    html { scroll-behavior: smooth; }
-    .hero-bg { background: linear-gradient(135deg, #4f46e5, #06b6d4); }
-    .card:hover { transform: scale(1.05); transition: 0.3s; }
+    body {
+      background-color: #0d1117;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    img {
+      width: 200px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
   </style>
 </head>
-<body class="font-sans text-gray-900">
-
-  <!-- Navbar -->
-  <nav class="fixed w-full bg-gray-900 text-white p-4 z-50 flex justify-center gap-8">
-    <a href="#about" class="hover:underline">About</a>
-    <a href="#services" class="hover:underline">Services</a>
-    <a href="#team" class="hover:underline">Team</a>
-    <a href="#portfolio" class="hover:underline">Portfolio</a>
-    <a href="#contact" class="hover:underline">Contact</a>
-  </nav>
-
-  <!-- Hero Section with Logo -->
-  <section class="hero-bg text-white flex flex-col items-center justify-center h-screen p-8 text-center">
-    <img src="SPAAKA.jpg" alt="SPAAKA Logo" class="mb-4 rounded-full shadow-lg w-32 h-32 object-cover">
-    <h1 class="text-5xl font-bold mb-4">SPAAKA</h1>
-    <p class="text-xl mb-6">Innovative IT Solutions | Transforming Ideas into Reality</p>
-    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded text-white font-semibold">Get in Touch</a>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="max-w-6xl mx-auto p-12">
-    <h2 class="text-4xl font-bold mb-6 text-center">About Us</h2>
-    <p class="text-gray-700 text-lg text-center mb-8">
-      SPAAKA is a cutting-edge IT company focused on delivering high-quality software solutions for startups and enterprises.
-      Our mission is to empower businesses with innovative technology and professional expertise.
-    </p>
-    <div class="flex flex-wrap justify-center gap-6">
-      <div class="card bg-white shadow-lg rounded-lg p-6 w-80">
-        <h3 class="text-2xl font-semibold mb-2">Vision</h3>
-        <p>To be a leading IT company recognized globally for innovation and excellence.</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6 w-80">
-        <h3 class="text-2xl font-semibold mb-2">Mission</h3>
-        <p>Deliver professional IT solutions that transform ideas into reality, while empowering our clients and team.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="bg-gray-100 py-12">
-    <h2 class="text-4xl font-bold mb-8 text-center">Our Services</h2>
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-2xl font-semibold mb-2">Web Development</h3>
-        <p>Building responsive, modern websites and web apps for businesses of all sizes.</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-2xl font-semibold mb-2">Mobile Apps</h3>
-        <p>Designing and developing intuitive mobile applications for iOS and Android.</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-2xl font-semibold mb-2">UI/UX Design</h3>
-        <p>Creating user-friendly interfaces and engaging experiences for your customers.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team Section (No Images) -->
-  <section id="team" class="max-w-6xl mx-auto py-12">
-    <h2 class="text-4xl font-bold mb-8 text-center">Our Team</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-xl font-semibold">Kartik Pandey</h3>
-        <p class="text-gray-600">Founder & CEO</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-xl font-semibold">Priyansh</h3>
-        <p class="text-gray-600">Software Developer</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-xl font-semibold">Anuj</h3>
-        <p class="text-gray-600">UI/UX Designer</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
-        <h3 class="text-xl font-semibold">Shubh</h3>
-        <p class="text-gray-600">Marketing</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="bg-gray-50 py-12">
-    <h2 class="text-4xl font-bold mb-8 text-center">Portfolio</h2>
-    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
-      <div class="card bg-white shadow-lg rounded-lg p-6">
-        <img src="https://via.placeholder.com/300x200" alt="Project 1" class="mb-4 rounded">
-        <h3 class="text-xl font-semibold mb-2">Project Alpha</h3>
-        <p>Modern web application for business management.</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6">
-        <img src="https://via.placeholder.com/300x200" alt="Project 2" class="mb-4 rounded">
-        <h3 class="text-xl font-semibold mb-2">Project Beta</h3>
-        <p>Mobile app for e-commerce with real-time analytics.</p>
-      </div>
-      <div class="card bg-white shadow-lg rounded-lg p-6">
-        <img src="https://via.placeholder.com/300x200" alt="Project 3" class="mb-4 rounded">
-        <h3 class="text-xl font-semibold mb-2">Project Gamma</h3>
-        <p>UI/UX redesign for popular online service platform.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="max-w-4xl mx-auto p-12">
-    <h2 class="text-4xl font-bold mb-4 text-center">Contact Us</h2>
-    <p class="text-gray-700 text-center mb-6">Reach out to us at <a href="mailto:spaaka.123@gmail.com" class="underline text-blue-500">spaaka.123@gmail.com</a></p>
-    <form class="flex flex-col gap-4 max-w-xl mx-auto">
-      <input type="text" placeholder="Your Name" class="p-2 rounded border border-gray-300">
-      <input type="email" placeholder="Your Email" class="p-2 rounded border border-gray-300">
-      <textarea placeholder="Message" class="p-2 rounded border border-gray-300"></textarea>
-      <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Send Message</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white text-center p-6 mt-8">
-    &copy; 2025 SPAAKA | Contact: <a href="mailto:spaaka.123@gmail.com" class="underline text-blue-400">spaaka.123@gmail.com</a>
-  </footer>
-
+<body>
+  <img src="SPAAKA.jpg" alt="SPAAKA Logo" />
+  <h1>We’ll Be Back Soon!</h1>
+  <p>SPAAKA website is currently under maintenance.<br />Please check back later.</p>
 </body>
 </html>
